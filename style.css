@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+#index{
+    background: #CA8787;
+}
+
+#container {
+    display: flexbox;
+    text-align: center;
+}
+
+.greetings {
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+.message {
+    margin-top: 25px;
+}
+#continue{
+    background-color: black;
+    font-size: 20px;
+    font-family: monospace;
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/847092187909232389/B30FDC786E112747191946B2E3C783731F810FA0/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button {
+    margin-top: 25px;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+
+.button:hover{
+    background: orange;
+}
+
+hr{
+    margin: auto;
+    margin-top: 25px;
+    width: 50%;
+}
+
